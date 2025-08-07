@@ -53,3 +53,7 @@ button {
     font-size: 18px;
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
+
+.reset-btn {
+    width: auto;
+}
