@@ -1,9 +1,10 @@
 let home = 0
 let guest = 0
-let homeEl = document.getElementById("home-el")
-let guestEl = document.getElementById("guest-el")
 
-function increment(team, points) {
+window.increment = function increment(team, points) {
+    let homeEl = document.getElementById("home-el")
+    let guestEl = document.getElementById("guest-el")
+
     if (team === "home") {
         home += points
         homeEl.textContent = home
@@ -12,5 +13,3 @@ function increment(team, points) {
         guestEl.textContent = guest
     }
 }
-
-window.increment = increment
