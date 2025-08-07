@@ -12,3 +12,5 @@ function increment(team, points) {
         guestEl.textContent = guest
     }
 }
+
+window.increment = increment
